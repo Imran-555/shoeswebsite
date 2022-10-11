@@ -15,16 +15,16 @@ nav {
 }
 
 .navTop {
-  display: flex;
+  display: none;
   align-items: center;
   justify-content: space-between;
 }
 
 .search {
-  display: flex;
-  align-items: center;
+  display: block;
+  align-items: auto;
   background-color: gray;
-  padding: 10px 20px;
+  padding: 100px 200px;
   border-radius: 10px;
 }
 
