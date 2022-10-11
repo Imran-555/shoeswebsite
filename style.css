@@ -15,16 +15,16 @@ nav {
 }
 
 .navTop {
-  display: none;
+  display: flex;             /* The display setting should be flex in order to open the navbar with proper orientation */
   align-items: center;
   justify-content: space-between;
 }
 
 .search {
-  display: block;
-  align-items: auto;
+  display: flex;             
+  align-items: center;       /* There is alignment mistake along with some padding value that is sorted now */
   background-color: gray;
-  padding: 100px 200px;
+  padding: 10px 20px;
   border-radius: 10px;
 }
 
